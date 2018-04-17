@@ -1,0 +1,87 @@
+This software can be built and run in the following ways:
+
+1  With Apple Xcode C++ framework integrated development environment
+2  With mach/linux/cygwin/bsd/unix C++ via make
+3  With Microsoft C++ framework integrated development environment
+
+For Apple, you can either use their Xcode development environment, which is free to download,
+or you can use their Terminal program, which provides a standard BASH shell.
+To run the Terminal application. Select Applications in the Finder, then navigate to
+Utilities, then double-click Terminal. A terminal window will open.
+
+==========================
+Apple Xcode
+If you are running MacOSX, you can download the free and excellent Xcode SDE:
+	http://developer.apple.com/technologies/xcode.html
+
+To use it, double-click on Musimat.xcodeproj
+In Groups & Files, open Musimat -> Source -> MusimatTutorial
+Click on MusimatTutorial.cpp
+Go to line 76:
+	B0100();	// Introduction to Musimat -- The programming language for "Musimathics"
+Plant a breakpoint by clicking to the left of the line number. A blue arrow appears, indicating
+the breakpoint is set.
+
+Make sure Xcode will execute the tutorial.  In the top-left of the window, you should see a 
+drop-down menu.  On this menu,  the Active Executable should be MusimatTutorial.
+
+On the Build menu, select Build. 
+
+When the project has built, select Run Debug - Breakpoints On.
+
+==========================
+Mach/Linux/cygwin/bsd/unix:
+Change directory to the root of the Musimat distribution (generally the
+same directory where this file lives) and type make to the shell prompt, e.g.:
+
+	% cd <Musimat_source_root_directory>
+	% make
+
+When make finishes, there will be one library in MusimatLib/MusimatLib.a, and two console
+applications, ./MusimatTutorial/MusimatTutorial.exe and ./MusimatChapter9/Chapter9.exe.
+To run them with the gdb debugger in Terminal, proceed as follows:
+
+	% cd MusimatTutorial
+	% gdb MusimatTutorial.exe
+	(gdb) b B10100
+		Breakpoint 1 at 0x100033d4f: file B0100.cpp, line 3.
+	(gdb) run
+		Starting program: /Users/garethloy/Musimathics/Musimat1.2/MusimatTutorial/MusimatTutorial.exe 
+		Reading symbols for shared libraries ++. done
+		Breakpoint 1, B0100 () at B0100.cpp:3
+		Print("*** Introduction to Musimat -- The programming language for \"Musimathics\" ***");
+	(gdb) q
+	% cd ../MusimatChapter9
+	% gdb Chapter9.exe
+		...
+
+
+==========================
+Microsoft Visual Studio C++
+
+Note: a free Express version of Visual Studio is available from Microsoft. 
+http://www.microsoft.com/Express/vc/
+Warning: you must create an account with them and jump through some hoops to get a registration key,
+and the Express version of VS is incredibly stupid and unbelievably slow -- but it's free.
+
+Double-click on Musimat.sln in the root directory of the Musimat distribution
+(generally the same directory where this file lives), select the Build menu, and
+select Build Solution. Different versions of VS have the Build command, e.g., in
+the Debug menu.  It will SLOOWLY build your solution. When the Build menu ungreys, it's done and
+you can proceed.
+
+Make sure VS has selected your project to debug. In the Solution Explorer, select Solution 'Musimat'.
+Select Project -> Properties. On the Solution 'Musimat' Property Pages,  select Single Starup Project 'MusimatTutorial'
+and click OK. (Later, come back here and select MusimatChapter9 to run that program.)
+
+In the Solution Explorer, open MusimatTutorial -> Source Files.
+Open file ./MusimatTutorial/MusimatTutorial.cpp (at the bottom of the list).
+Go to line 76 of MusimatTutorial.cpp, which looks like this:
+	B0100() // Introduction to Musimat -- The programming language for "Musimathics"
+Plant a breakpoint on this line by touching the cursor in the grey bar to the left of the line. 
+A red ball appears, indicating a breakpoint has been placed.
+
+Then select the Debug or Start Debugging menu items.
+
+
+

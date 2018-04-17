@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusimatLib", "MusimatLib\MusimatLib.vcxproj", "{E4405088-20E6-4BE0-9172-4953282248A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusimatTutorial", "MusimatTutorial\MusimatTutorial.vcxproj", "{CB05AFE4-3B6C-4741-86D7-A14A1FBF14B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusimatTests", "MusimatTests\MusimatTests.vcxproj", "{ECA3D0EE-F3E4-4ACB-A6B0-6D57741C7866}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusimatChapter9", "MusimatChapter9\MusimatChapter9.vcxproj", "{8AAC9929-2F0B-4DAE-B9B2-04D7370C37C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4405088-20E6-4BE0-9172-4953282248A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4405088-20E6-4BE0-9172-4953282248A1}.Debug|Win32.Build.0 = Debug|Win32
+		{E4405088-20E6-4BE0-9172-4953282248A1}.Release|Win32.ActiveCfg = Release|Win32
+		{E4405088-20E6-4BE0-9172-4953282248A1}.Release|Win32.Build.0 = Release|Win32
+		{CB05AFE4-3B6C-4741-86D7-A14A1FBF14B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB05AFE4-3B6C-4741-86D7-A14A1FBF14B2}.Debug|Win32.Build.0 = Debug|Win32
+		{CB05AFE4-3B6C-4741-86D7-A14A1FBF14B2}.Release|Win32.ActiveCfg = Release|Win32
+		{CB05AFE4-3B6C-4741-86D7-A14A1FBF14B2}.Release|Win32.Build.0 = Release|Win32
+		{ECA3D0EE-F3E4-4ACB-A6B0-6D57741C7866}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECA3D0EE-F3E4-4ACB-A6B0-6D57741C7866}.Debug|Win32.Build.0 = Debug|Win32
+		{ECA3D0EE-F3E4-4ACB-A6B0-6D57741C7866}.Release|Win32.ActiveCfg = Release|Win32
+		{ECA3D0EE-F3E4-4ACB-A6B0-6D57741C7866}.Release|Win32.Build.0 = Release|Win32
+		{8AAC9929-2F0B-4DAE-B9B2-04D7370C37C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AAC9929-2F0B-4DAE-B9B2-04D7370C37C8}.Debug|Win32.Build.0 = Debug|Win32
+		{8AAC9929-2F0B-4DAE-B9B2-04D7370C37C8}.Release|Win32.ActiveCfg = Release|Win32
+		{8AAC9929-2F0B-4DAE-B9B2-04D7370C37C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

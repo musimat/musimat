@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D54F8CCF1294FEED0048DBC8 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D54F8CD21294FF0B0048DBC8 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D54F8CD41294FF2E0048DBC8 /* PBXTargetDependency */,
+				D54F8CD61294FF2E0048DBC8 /* PBXTargetDependency */,
+				D54F8CD81294FF2E0048DBC8 /* PBXTargetDependency */,
+				D54F8CDA1294FF2E0048DBC8 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+		D5D9FBBD0D348FD100EB4D6B /* ShellScript */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5D9FBC00D348FDA00EB4D6B /* Build configuration list for PBXAggregateTarget "ShellScript" */;
+			buildPhases = (
+				D5D9FBBC0D348FD100EB4D6B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ShellScript;
+			productName = ShellScript;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D54F8C971294FCF10048DBC8 /* libMusimatLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D9FAE40D32FD2B00EB4D6B /* libMusimatLib.a */; };
+		D54F8CCB1294FE7F0048DBC8 /* libMusimatLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D9FAE40D32FD2B00EB4D6B /* libMusimatLib.a */; };
+		D54F8CCC1294FEB00048DBC8 /* libMusimatLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D9FAE40D32FD2B00EB4D6B /* libMusimatLib.a */; };
+		D5D9FB080D33043200EB4D6B /* B0105.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA330D32FB8F00EB4D6B /* B0105.cpp */; };
+		D5D9FB090D33043200EB4D6B /* B0129.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA4B0D32FB8F00EB4D6B /* B0129.cpp */; };
+		D5D9FB0A0D33043200EB4D6B /* B0115.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA3D0D32FB8F00EB4D6B /* B0115.cpp */; };
+		D5D9FB0B0D33043200EB4D6B /* B0201a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA4E0D32FB8F00EB4D6B /* B0201a.cpp */; };
+		D5D9FB0C0D33043200EB4D6B /* B0101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA2F0D32FB8F00EB4D6B /* B0101.cpp */; };
+		D5D9FB0D0D33043200EB4D6B /* B0201b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA4F0D32FB8F00EB4D6B /* B0201b.cpp */; };
+		D5D9FB0E0D33043200EB4D6B /* B0110.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA380D32FB8F00EB4D6B /* B0110.cpp */; };
+		D5D9FB0F0D33043200EB4D6B /* B0106.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA340D32FB8F00EB4D6B /* B0106.cpp */; };
+		D5D9FB100D33043200EB4D6B /* B0113.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA3B0D32FB8F00EB4D6B /* B0113.cpp */; };
+		D5D9FB110D33043200EB4D6B /* B0104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA320D32FB8F00EB4D6B /* B0104.cpp */; };
+		D5D9FB120D33043200EB4D6B /* B0118.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA400D32FB8F00EB4D6B /* B0118.cpp */; };
+		D5D9FB130D33043200EB4D6B /* B0109.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA370D32FB8F00EB4D6B /* B0109.cpp */; };
+		D5D9FB140D33043200EB4D6B /* B0102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA300D32FB8F00EB4D6B /* B0102.cpp */; };
+		D5D9FB150D33043200EB4D6B /* B0200.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA4C0D32FB8F00EB4D6B /* B0200.cpp */; };
+		D5D9FB160D33043200EB4D6B /* B0203.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA530D32FB8F00EB4D6B /* B0203.cpp */; };
+		D5D9FB170D33043200EB4D6B /* B0204.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA540D32FB8F00EB4D6B /* B0204.cpp */; };
+		D5D9FB180D33043200EB4D6B /* B0201c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA500D32FB8F00EB4D6B /* B0201c.cpp */; };
+		D5D9FB190D33043200EB4D6B /* B0201d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA510D32FB8F00EB4D6B /* B0201d.cpp */; };
+		D5D9FB1A0D33043200EB4D6B /* MusimatTutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA570D32FB8F00EB4D6B /* MusimatTutorial.cpp */; };
+		D5D9FB1B0D33043200EB4D6B /* B0122.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA440D32FB8F00EB4D6B /* B0122.cpp */; };
+		D5D9FB1C0D33043200EB4D6B /* B0121.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA430D32FB8F00EB4D6B /* B0121.cpp */; };
+		D5D9FB1D0D33043200EB4D6B /* B0125.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA470D32FB8F00EB4D6B /* B0125.cpp */; };
+		D5D9FB1E0D33043200EB4D6B /* B0123.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA450D32FB8F00EB4D6B /* B0123.cpp */; };
+		D5D9FB1F0D33043200EB4D6B /* B0103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA310D32FB8F00EB4D6B /* B0103.cpp */; };
+		D5D9FB200D33043200EB4D6B /* B0114.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA3C0D32FB8F00EB4D6B /* B0114.cpp */; };
+		D5D9FB210D33043200EB4D6B /* B0400.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA560D32FB8F00EB4D6B /* B0400.cpp */; };
+		D5D9FB220D33043200EB4D6B /* B0112.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA3A0D32FB8F00EB4D6B /* B0112.cpp */; };
+		D5D9FB230D33043200EB4D6B /* B0124.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA460D32FB8F00EB4D6B /* B0124.cpp */; };
+		D5D9FB240D33043200EB4D6B /* B0201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA4D0D32FB8F00EB4D6B /* B0201.cpp */; };
+		D5D9FB250D33043200EB4D6B /* B0107.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA350D32FB8F00EB4D6B /* B0107.cpp */; };
+		D5D9FB260D33043200EB4D6B /* B0119.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA410D32FB8F00EB4D6B /* B0119.cpp */; };
+		D5D9FB270D33043200EB4D6B /* B0300.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA550D32FB8F00EB4D6B /* B0300.cpp */; };
+		D5D9FB290D33043200EB4D6B /* B0128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA4A0D32FB8F00EB4D6B /* B0128.cpp */; };
+		D5D9FB2A0D33043200EB4D6B /* B0100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA2E0D32FB8F00EB4D6B /* B0100.cpp */; };
+		D5D9FB2B0D33043200EB4D6B /* B0127.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA490D32FB8F00EB4D6B /* B0127.cpp */; };
+		D5D9FB2C0D33043200EB4D6B /* B0202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA520D32FB8F00EB4D6B /* B0202.cpp */; };
+		D5D9FB2D0D33043200EB4D6B /* B0117.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA3F0D32FB8F00EB4D6B /* B0117.cpp */; };
+		D5D9FB2E0D33043200EB4D6B /* B0111.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA390D32FB8F00EB4D6B /* B0111.cpp */; };
+		D5D9FB2F0D33043200EB4D6B /* B0116.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA3E0D32FB8F00EB4D6B /* B0116.cpp */; };
+		D5D9FB300D33043200EB4D6B /* B0108.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA360D32FB8F00EB4D6B /* B0108.cpp */; };
+		D5D9FB310D33043200EB4D6B /* B0120.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA420D32FB8F00EB4D6B /* B0120.cpp */; };
+		D5D9FB320D33043200EB4D6B /* B0126.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA480D32FB8F00EB4D6B /* B0126.cpp */; };
+		D5D9FB330D33045B00EB4D6B /* Euclid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA870D32FBDA00EB4D6B /* Euclid.cpp */; };
+		D5D9FB340D33045B00EB4D6B /* miscTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA890D32FBDA00EB4D6B /* miscTests.cpp */; };
+		D5D9FB360D33045B00EB4D6B /* cplxTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA860D32FBDA00EB4D6B /* cplxTest.cpp */; };
+		D5D9FB370D33045B00EB4D6B /* MusimatTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA8A0D32FBDA00EB4D6B /* MusimatTests.cpp */; };
+		D5D9FB380D33045B00EB4D6B /* Guido.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA880D32FBDA00EB4D6B /* Guido.cpp */; };
+		D5D9FB390D33047E00EB4D6B /* Musimat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA940D32FC0500EB4D6B /* Musimat.cpp */; };
+		D5D9FB3A0D33047E00EB4D6B /* Rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA970D32FC0500EB4D6B /* Rational.cpp */; };
+		D5D9FB3B0D33047E00EB4D6B /* Pitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA950D32FC0500EB4D6B /* Pitch.cpp */; };
+		D5D9FB3C0D33047E00EB4D6B /* Rhythm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA980D32FC0500EB4D6B /* Rhythm.cpp */; };
+		D5D9FB3D0D33047E00EB4D6B /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA960D32FC0500EB4D6B /* Random.cpp */; };
+		D5D9FB3E0D33047E00EB4D6B /* Row.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FA990D32FC0500EB4D6B /* Row.cpp */; };
+		D5D9FB3F0D33049700EB4D6B /* C091201.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAAB0D32FC2D00EB4D6B /* C091201.cpp */; };
+		D5D9FB400D33049700EB4D6B /* C091201e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB00D32FC2D00EB4D6B /* C091201e.cpp */; };
+		D5D9FB410D33049700EB4D6B /* C090400.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA20D32FC2D00EB4D6B /* C090400.cpp */; };
+		D5D9FB420D33049700EB4D6B /* C091704b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FABB0D32FC2D00EB4D6B /* C091704b.cpp */; };
+		D5D9FB430D33049700EB4D6B /* C091406c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FABA0D32FC2D00EB4D6B /* C091406c.cpp */; };
+		D5D9FB440D33049700EB4D6B /* C091101.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA80D32FC2D00EB4D6B /* C091101.cpp */; };
+		D5D9FB450D33049700EB4D6B /* C091704c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FABC0D32FC2D00EB4D6B /* C091704c.cpp */; };
+		D5D9FB460D33049700EB4D6B /* C091204.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB20D32FC2D00EB4D6B /* C091204.cpp */; };
+		D5D9FB470D33049700EB4D6B /* MusimatChapter9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FABE0D32FC2D00EB4D6B /* MusimatChapter9.cpp */; };
+		D5D9FB480D33049700EB4D6B /* C090703a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA40D32FC2D00EB4D6B /* C090703a.cpp */; };
+		D5D9FB490D33049700EB4D6B /* C090703.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA30D32FC2D00EB4D6B /* C090703.cpp */; };
+		D5D9FB4A0D33049700EB4D6B /* C091201d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAAF0D32FC2D00EB4D6B /* C091201d.cpp */; };
+		D5D9FB4B0D33049700EB4D6B /* C091204b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB40D32FC2D00EB4D6B /* C091204b.cpp */; };
+		D5D9FB4C0D33049700EB4D6B /* C091204a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB30D32FC2D00EB4D6B /* C091204a.cpp */; };
+		D5D9FB4D0D33049700EB4D6B /* C091102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA90D32FC2D00EB4D6B /* C091102.cpp */; };
+		D5D9FB4F0D33049700EB4D6B /* C091405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB60D32FC2D00EB4D6B /* C091405.cpp */; };
+		D5D9FB500D33049700EB4D6B /* C091406a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB80D32FC2D00EB4D6B /* C091406a.cpp */; };
+		D5D9FB510D33049700EB4D6B /* C091406b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB90D32FC2D00EB4D6B /* C091406b.cpp */; };
+		D5D9FB520D33049700EB4D6B /* C091201f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB10D32FC2D00EB4D6B /* C091201f.cpp */; };
+		D5D9FB530D33049700EB4D6B /* C090703b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA50D32FC2D00EB4D6B /* C090703b.cpp */; };
+		D5D9FB540D33049700EB4D6B /* C091201b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAAD0D32FC2D00EB4D6B /* C091201b.cpp */; };
+		D5D9FB550D33049700EB4D6B /* C091201c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAAE0D32FC2D00EB4D6B /* C091201c.cpp */; };
+		D5D9FB560D33049700EB4D6B /* C091704d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FABD0D32FC2D00EB4D6B /* C091704d.cpp */; };
+		D5D9FB570D33049700EB4D6B /* C091204d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB50D32FC2D00EB4D6B /* C091204d.cpp */; };
+		D5D9FB580D33049700EB4D6B /* C090703c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA60D32FC2D00EB4D6B /* C090703c.cpp */; };
+		D5D9FB590D33049700EB4D6B /* C090903.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAA70D32FC2D00EB4D6B /* C090903.cpp */; };
+		D5D9FB5A0D33049700EB4D6B /* C091406.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAB70D32FC2D00EB4D6B /* C091406.cpp */; };
+		D5D9FB5B0D33049700EB4D6B /* C091200.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAAA0D32FC2D00EB4D6B /* C091200.cpp */; };
+		D5D9FB5C0D33049700EB4D6B /* C091201a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D9FAAC0D32FC2D00EB4D6B /* C091201a.cpp */; };
+		D5D9FB9A0D330A3E00EB4D6B /* Aliases.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB8D0D330A3E00EB4D6B /* Aliases.h */; };
+		D5D9FB9B0D330A3E00EB4D6B /* Complex.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB8E0D330A3E00EB4D6B /* Complex.h */; };
+		D5D9FB9C0D330A3E00EB4D6B /* Dynamics.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB8F0D330A3E00EB4D6B /* Dynamics.h */; };
+		D5D9FB9D0D330A3E00EB4D6B /* List.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB900D330A3E00EB4D6B /* List.h */; };
+		D5D9FB9E0D330A3E00EB4D6B /* MathFuns.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB910D330A3E00EB4D6B /* MathFuns.h */; };
+		D5D9FB9F0D330A3E00EB4D6B /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB920D330A3E00EB4D6B /* Matrix.h */; };
+		D5D9FBA00D330A3E00EB4D6B /* Musimat.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB930D330A3E00EB4D6B /* Musimat.h */; };
+		D5D9FBA10D330A3E00EB4D6B /* Pitch.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB940D330A3E00EB4D6B /* Pitch.h */; };
+		D5D9FBA20D330A3E00EB4D6B /* Pitches.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB950D330A3E00EB4D6B /* Pitches.h */; };
+		D5D9FBA30D330A3E00EB4D6B /* Random.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB960D330A3E00EB4D6B /* Random.h */; };
+		D5D9FBA40D330A3E00EB4D6B /* Rational.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB970D330A3E00EB4D6B /* Rational.h */; };
+		D5D9FBA50D330A3E00EB4D6B /* Rhythm.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB980D330A3E00EB4D6B /* Rhythm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D9FBA60D330A3E00EB4D6B /* Row.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D9FB990D330A3E00EB4D6B /* Row.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54F8CD31294FF2E0048DBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FAE30D32FD2B00EB4D6B;
+			remoteInfo = MusimatLib;
+		};
+		D54F8CD51294FF2E0048DBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FAEE0D33034300EB4D6B;
+			remoteInfo = MusimatTutorial;
+		};
+		D54F8CD71294FF2E0048DBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FAF70D33035F00EB4D6B;
+			remoteInfo = MusimatTests;
+		};
+		D54F8CD91294FF2E0048DBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FB000D33037300EB4D6B;
+			remoteInfo = MusimatChapter9;
+		};
+		D5D9FB6B0D3306A100EB4D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FAE30D32FD2B00EB4D6B;
+			remoteInfo = MusimatLib;
+		};
+		D5D9FB6D0D3306B200EB4D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FAE30D32FD2B00EB4D6B;
+			remoteInfo = MusimatLib;
+		};
+		D5D9FB6F0D3306BE00EB4D6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D9FAE30D32FD2B00EB4D6B;
+			remoteInfo = MusimatLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6859E8B029090EE04C91782 /* Musimat.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Musimat.1; sourceTree = "<group>"; };
+		D5D9FA2E0D32FB8F00EB4D6B /* B0100.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0100.cpp; path = MusimatTutorial/B0100.cpp; sourceTree = "<group>"; };
+		D5D9FA2F0D32FB8F00EB4D6B /* B0101.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0101.cpp; path = MusimatTutorial/B0101.cpp; sourceTree = "<group>"; };
+		D5D9FA300D32FB8F00EB4D6B /* B0102.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0102.cpp; path = MusimatTutorial/B0102.cpp; sourceTree = "<group>"; };
+		D5D9FA310D32FB8F00EB4D6B /* B0103.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0103.cpp; path = MusimatTutorial/B0103.cpp; sourceTree = "<group>"; };
+		D5D9FA320D32FB8F00EB4D6B /* B0104.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0104.cpp; path = MusimatTutorial/B0104.cpp; sourceTree = "<group>"; };
+		D5D9FA330D32FB8F00EB4D6B /* B0105.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0105.cpp; path = MusimatTutorial/B0105.cpp; sourceTree = "<group>"; };
+		D5D9FA340D32FB8F00EB4D6B /* B0106.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0106.cpp; path = MusimatTutorial/B0106.cpp; sourceTree = "<group>"; };
+		D5D9FA350D32FB8F00EB4D6B /* B0107.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0107.cpp; path = MusimatTutorial/B0107.cpp; sourceTree = "<group>"; };
+		D5D9FA360D32FB8F00EB4D6B /* B0108.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0108.cpp; path = MusimatTutorial/B0108.cpp; sourceTree = "<group>"; };
+		D5D9FA370D32FB8F00EB4D6B /* B0109.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0109.cpp; path = MusimatTutorial/B0109.cpp; sourceTree = "<group>"; };
+		D5D9FA380D32FB8F00EB4D6B /* B0110.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0110.cpp; path = MusimatTutorial/B0110.cpp; sourceTree = "<group>"; };
+		D5D9FA390D32FB8F00EB4D6B /* B0111.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0111.cpp; path = MusimatTutorial/B0111.cpp; sourceTree = "<group>"; };
+		D5D9FA3A0D32FB8F00EB4D6B /* B0112.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0112.cpp; path = MusimatTutorial/B0112.cpp; sourceTree = "<group>"; };
+		D5D9FA3B0D32FB8F00EB4D6B /* B0113.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0113.cpp; path = MusimatTutorial/B0113.cpp; sourceTree = "<group>"; };
+		D5D9FA3C0D32FB8F00EB4D6B /* B0114.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0114.cpp; path = MusimatTutorial/B0114.cpp; sourceTree = "<group>"; };
+		D5D9FA3D0D32FB8F00EB4D6B /* B0115.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0115.cpp; path = MusimatTutorial/B0115.cpp; sourceTree = "<group>"; };
+		D5D9FA3E0D32FB8F00EB4D6B /* B0116.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0116.cpp; path = MusimatTutorial/B0116.cpp; sourceTree = "<group>"; };
+		D5D9FA3F0D32FB8F00EB4D6B /* B0117.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0117.cpp; path = MusimatTutorial/B0117.cpp; sourceTree = "<group>"; };
+		D5D9FA400D32FB8F00EB4D6B /* B0118.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0118.cpp; path = MusimatTutorial/B0118.cpp; sourceTree = "<group>"; };
+		D5D9FA410D32FB8F00EB4D6B /* B0119.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0119.cpp; path = MusimatTutorial/B0119.cpp; sourceTree = "<group>"; };
+		D5D9FA420D32FB8F00EB4D6B /* B0120.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0120.cpp; path = MusimatTutorial/B0120.cpp; sourceTree = "<group>"; };
+		D5D9FA430D32FB8F00EB4D6B /* B0121.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0121.cpp; path = MusimatTutorial/B0121.cpp; sourceTree = "<group>"; };
+		D5D9FA440D32FB8F00EB4D6B /* B0122.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0122.cpp; path = MusimatTutorial/B0122.cpp; sourceTree = "<group>"; };
+		D5D9FA450D32FB8F00EB4D6B /* B0123.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0123.cpp; path = MusimatTutorial/B0123.cpp; sourceTree = "<group>"; };
+		D5D9FA460D32FB8F00EB4D6B /* B0124.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0124.cpp; path = MusimatTutorial/B0124.cpp; sourceTree = "<group>"; };
+		D5D9FA470D32FB8F00EB4D6B /* B0125.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0125.cpp; path = MusimatTutorial/B0125.cpp; sourceTree = "<group>"; };
+		D5D9FA480D32FB8F00EB4D6B /* B0126.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0126.cpp; path = MusimatTutorial/B0126.cpp; sourceTree = "<group>"; };
+		D5D9FA490D32FB8F00EB4D6B /* B0127.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0127.cpp; path = MusimatTutorial/B0127.cpp; sourceTree = "<group>"; };
+		D5D9FA4A0D32FB8F00EB4D6B /* B0128.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0128.cpp; path = MusimatTutorial/B0128.cpp; sourceTree = "<group>"; };
+		D5D9FA4B0D32FB8F00EB4D6B /* B0129.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0129.cpp; path = MusimatTutorial/B0129.cpp; sourceTree = "<group>"; };
+		D5D9FA4C0D32FB8F00EB4D6B /* B0200.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0200.cpp; path = MusimatTutorial/B0200.cpp; sourceTree = "<group>"; };
+		D5D9FA4D0D32FB8F00EB4D6B /* B0201.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0201.cpp; path = MusimatTutorial/B0201.cpp; sourceTree = "<group>"; };
+		D5D9FA4E0D32FB8F00EB4D6B /* B0201a.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0201a.cpp; path = MusimatTutorial/B0201a.cpp; sourceTree = "<group>"; };
+		D5D9FA4F0D32FB8F00EB4D6B /* B0201b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0201b.cpp; path = MusimatTutorial/B0201b.cpp; sourceTree = "<group>"; };
+		D5D9FA500D32FB8F00EB4D6B /* B0201c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0201c.cpp; path = MusimatTutorial/B0201c.cpp; sourceTree = "<group>"; };
+		D5D9FA510D32FB8F00EB4D6B /* B0201d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0201d.cpp; path = MusimatTutorial/B0201d.cpp; sourceTree = "<group>"; };
+		D5D9FA520D32FB8F00EB4D6B /* B0202.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0202.cpp; path = MusimatTutorial/B0202.cpp; sourceTree = "<group>"; };
+		D5D9FA530D32FB8F00EB4D6B /* B0203.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0203.cpp; path = MusimatTutorial/B0203.cpp; sourceTree = "<group>"; };
+		D5D9FA540D32FB8F00EB4D6B /* B0204.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0204.cpp; path = MusimatTutorial/B0204.cpp; sourceTree = "<group>"; };
+		D5D9FA550D32FB8F00EB4D6B /* B0300.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0300.cpp; path = MusimatTutorial/B0300.cpp; sourceTree = "<group>"; };
+		D5D9FA560D32FB8F00EB4D6B /* B0400.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B0400.cpp; path = MusimatTutorial/B0400.cpp; sourceTree = "<group>"; };
+		D5D9FA570D32FB8F00EB4D6B /* MusimatTutorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MusimatTutorial.cpp; path = MusimatTutorial/MusimatTutorial.cpp; sourceTree = "<group>"; };
+		D5D9FA580D32FB8F00EB4D6B /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = MusimatTutorial/stdafx.cpp; sourceTree = "<group>"; };
+		D5D9FA860D32FBDA00EB4D6B /* cplxTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cplxTest.cpp; path = MusimatTests/cplxTest.cpp; sourceTree = "<group>"; };
+		D5D9FA870D32FBDA00EB4D6B /* Euclid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Euclid.cpp; path = MusimatTests/Euclid.cpp; sourceTree = "<group>"; };
+		D5D9FA880D32FBDA00EB4D6B /* Guido.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Guido.cpp; path = MusimatTests/Guido.cpp; sourceTree = "<group>"; };
+		D5D9FA890D32FBDA00EB4D6B /* miscTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = miscTests.cpp; path = MusimatTests/miscTests.cpp; sourceTree = "<group>"; };
+		D5D9FA8A0D32FBDA00EB4D6B /* MusimatTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MusimatTests.cpp; path = MusimatTests/MusimatTests.cpp; sourceTree = "<group>"; };
+		D5D9FA8B0D32FBDA00EB4D6B /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = MusimatTests/stdafx.cpp; sourceTree = "<group>"; };
+		D5D9FA940D32FC0500EB4D6B /* Musimat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Musimat.cpp; path = MusimatLib/Musimat.cpp; sourceTree = "<group>"; };
+		D5D9FA950D32FC0500EB4D6B /* Pitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pitch.cpp; path = MusimatLib/Pitch.cpp; sourceTree = "<group>"; };
+		D5D9FA960D32FC0500EB4D6B /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Random.cpp; path = MusimatLib/Random.cpp; sourceTree = "<group>"; };
+		D5D9FA970D32FC0500EB4D6B /* Rational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rational.cpp; path = MusimatLib/Rational.cpp; sourceTree = "<group>"; };
+		D5D9FA980D32FC0500EB4D6B /* Rhythm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rhythm.cpp; path = MusimatLib/Rhythm.cpp; sourceTree = "<group>"; };
+		D5D9FA990D32FC0500EB4D6B /* Row.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Row.cpp; path = MusimatLib/Row.cpp; sourceTree = "<group>"; };
+		D5D9FAA20D32FC2D00EB4D6B /* C090400.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C090400.cpp; path = MusimatChapter9/C090400.cpp; sourceTree = "<group>"; };
+		D5D9FAA30D32FC2D00EB4D6B /* C090703.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C090703.cpp; path = MusimatChapter9/C090703.cpp; sourceTree = "<group>"; };
+		D5D9FAA40D32FC2D00EB4D6B /* C090703a.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C090703a.cpp; path = MusimatChapter9/C090703a.cpp; sourceTree = "<group>"; };
+		D5D9FAA50D32FC2D00EB4D6B /* C090703b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C090703b.cpp; path = MusimatChapter9/C090703b.cpp; sourceTree = "<group>"; };
+		D5D9FAA60D32FC2D00EB4D6B /* C090703c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C090703c.cpp; path = MusimatChapter9/C090703c.cpp; sourceTree = "<group>"; };
+		D5D9FAA70D32FC2D00EB4D6B /* C090903.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C090903.cpp; path = MusimatChapter9/C090903.cpp; sourceTree = "<group>"; };
+		D5D9FAA80D32FC2D00EB4D6B /* C091101.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091101.cpp; path = MusimatChapter9/C091101.cpp; sourceTree = "<group>"; };
+		D5D9FAA90D32FC2D00EB4D6B /* C091102.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091102.cpp; path = MusimatChapter9/C091102.cpp; sourceTree = "<group>"; };
+		D5D9FAAA0D32FC2D00EB4D6B /* C091200.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091200.cpp; path = MusimatChapter9/C091200.cpp; sourceTree = "<group>"; };
+		D5D9FAAB0D32FC2D00EB4D6B /* C091201.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201.cpp; path = MusimatChapter9/C091201.cpp; sourceTree = "<group>"; };
+		D5D9FAAC0D32FC2D00EB4D6B /* C091201a.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201a.cpp; path = MusimatChapter9/C091201a.cpp; sourceTree = "<group>"; };
+		D5D9FAAD0D32FC2D00EB4D6B /* C091201b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201b.cpp; path = MusimatChapter9/C091201b.cpp; sourceTree = "<group>"; };
+		D5D9FAAE0D32FC2D00EB4D6B /* C091201c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201c.cpp; path = MusimatChapter9/C091201c.cpp; sourceTree = "<group>"; };
+		D5D9FAAF0D32FC2D00EB4D6B /* C091201d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201d.cpp; path = MusimatChapter9/C091201d.cpp; sourceTree = "<group>"; };
+		D5D9FAB00D32FC2D00EB4D6B /* C091201e.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201e.cpp; path = MusimatChapter9/C091201e.cpp; sourceTree = "<group>"; };
+		D5D9FAB10D32FC2D00EB4D6B /* C091201f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091201f.cpp; path = MusimatChapter9/C091201f.cpp; sourceTree = "<group>"; };
+		D5D9FAB20D32FC2D00EB4D6B /* C091204.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091204.cpp; path = MusimatChapter9/C091204.cpp; sourceTree = "<group>"; };
+		D5D9FAB30D32FC2D00EB4D6B /* C091204a.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091204a.cpp; path = MusimatChapter9/C091204a.cpp; sourceTree = "<group>"; };
+		D5D9FAB40D32FC2D00EB4D6B /* C091204b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091204b.cpp; path = MusimatChapter9/C091204b.cpp; sourceTree = "<group>"; };
+		D5D9FAB50D32FC2D00EB4D6B /* C091204d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091204d.cpp; path = MusimatChapter9/C091204d.cpp; sourceTree = "<group>"; };
+		D5D9FAB60D32FC2D00EB4D6B /* C091405.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091405.cpp; path = MusimatChapter9/C091405.cpp; sourceTree = "<group>"; };
+		D5D9FAB70D32FC2D00EB4D6B /* C091406.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091406.cpp; path = MusimatChapter9/C091406.cpp; sourceTree = "<group>"; };
+		D5D9FAB80D32FC2D00EB4D6B /* C091406a.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091406a.cpp; path = MusimatChapter9/C091406a.cpp; sourceTree = "<group>"; };
+		D5D9FAB90D32FC2D00EB4D6B /* C091406b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091406b.cpp; path = MusimatChapter9/C091406b.cpp; sourceTree = "<group>"; };
+		D5D9FABA0D32FC2D00EB4D6B /* C091406c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091406c.cpp; path = MusimatChapter9/C091406c.cpp; sourceTree = "<group>"; };
+		D5D9FABB0D32FC2D00EB4D6B /* C091704b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091704b.cpp; path = MusimatChapter9/C091704b.cpp; sourceTree = "<group>"; };
+		D5D9FABC0D32FC2D00EB4D6B /* C091704c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091704c.cpp; path = MusimatChapter9/C091704c.cpp; sourceTree = "<group>"; };
+		D5D9FABD0D32FC2D00EB4D6B /* C091704d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C091704d.cpp; path = MusimatChapter9/C091704d.cpp; sourceTree = "<group>"; };
+		D5D9FABE0D32FC2D00EB4D6B /* MusimatChapter9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MusimatChapter9.cpp; path = MusimatChapter9/MusimatChapter9.cpp; sourceTree = "<group>"; };
+		D5D9FABF0D32FC2D00EB4D6B /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = MusimatChapter9/stdafx.cpp; sourceTree = "<group>"; };
+		D5D9FAE40D32FD2B00EB4D6B /* libMusimatLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMusimatLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D9FAEF0D33034300EB4D6B /* MusimatTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MusimatTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D9FAF80D33035F00EB4D6B /* MusimatTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MusimatTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D9FB010D33037300EB4D6B /* MusimatChapter9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MusimatChapter9; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D9FB8D0D330A3E00EB4D6B /* Aliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aliases.h; path = include/Aliases.h; sourceTree = "<group>"; };
+		D5D9FB8E0D330A3E00EB4D6B /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Complex.h; path = include/Complex.h; sourceTree = "<group>"; };
+		D5D9FB8F0D330A3E00EB4D6B /* Dynamics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dynamics.h; path = include/Dynamics.h; sourceTree = "<group>"; };
+		D5D9FB900D330A3E00EB4D6B /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = List.h; path = include/List.h; sourceTree = "<group>"; };
+		D5D9FB910D330A3E00EB4D6B /* MathFuns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathFuns.h; path = include/MathFuns.h; sourceTree = "<group>"; };
+		D5D9FB920D330A3E00EB4D6B /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = include/Matrix.h; sourceTree = "<group>"; };
+		D5D9FB930D330A3E00EB4D6B /* Musimat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Musimat.h; path = include/Musimat.h; sourceTree = "<group>"; };
+		D5D9FB940D330A3E00EB4D6B /* Pitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pitch.h; path = include/Pitch.h; sourceTree = "<group>"; };
+		D5D9FB950D330A3E00EB4D6B /* Pitches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pitches.h; path = include/Pitches.h; sourceTree = "<group>"; };
+		D5D9FB960D330A3E00EB4D6B /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Random.h; path = include/Random.h; sourceTree = "<group>"; };
+		D5D9FB970D330A3E00EB4D6B /* Rational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rational.h; path = include/Rational.h; sourceTree = "<group>"; };
+		D5D9FB980D330A3E00EB4D6B /* Rhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rhythm.h; path = include/Rhythm.h; sourceTree = "<group>"; };
+		D5D9FB990D330A3E00EB4D6B /* Row.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Row.h; path = include/Row.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D9FAE20D32FD2B00EB4D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9FAED0D33034300EB4D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F8C971294FCF10048DBC8 /* libMusimatLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9FAF60D33035F00EB4D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F8CCB1294FE7F0048DBC8 /* libMusimatLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9FAFF0D33037300EB4D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F8CCC1294FEB00048DBC8 /* libMusimatLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Musimat */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Musimat;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D5C139D10D1B5C5C008B5DDE /* MusimatTutorial */,
+				D5C139CE0D1B5C4A008B5DDE /* MusimatTests */,
+				D5C139CB0D1B5C1E008B5DDE /* MusimatLib */,
+				D5C139C80D1B5BEE008B5DDE /* MusimatChapter9 */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D530D1870D4AAFB4004ABBE7 /* MusimatLib */,
+				D5D9FAEF0D33034300EB4D6B /* MusimatTutorial */,
+				D5D9FAF80D33035F00EB4D6B /* MusimatTests */,
+				D5D9FB010D33037300EB4D6B /* MusimatChapter9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* Musimat.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		D530D1870D4AAFB4004ABBE7 /* MusimatLib */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9FAE40D32FD2B00EB4D6B /* libMusimatLib.a */,
+			);
+			name = MusimatLib;
+			sourceTree = "<group>";
+		};
+		D5C139C80D1B5BEE008B5DDE /* MusimatChapter9 */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9FAA20D32FC2D00EB4D6B /* C090400.cpp */,
+				D5D9FAA30D32FC2D00EB4D6B /* C090703.cpp */,
+				D5D9FAA40D32FC2D00EB4D6B /* C090703a.cpp */,
+				D5D9FAA50D32FC2D00EB4D6B /* C090703b.cpp */,
+				D5D9FAA60D32FC2D00EB4D6B /* C090703c.cpp */,
+				D5D9FAA70D32FC2D00EB4D6B /* C090903.cpp */,
+				D5D9FAA80D32FC2D00EB4D6B /* C091101.cpp */,
+				D5D9FAA90D32FC2D00EB4D6B /* C091102.cpp */,
+				D5D9FAAA0D32FC2D00EB4D6B /* C091200.cpp */,
+				D5D9FAAB0D32FC2D00EB4D6B /* C091201.cpp */,
+				D5D9FAAC0D32FC2D00EB4D6B /* C091201a.cpp */,
+				D5D9FAAD0D32FC2D00EB4D6B /* C091201b.cpp */,
+				D5D9FAAE0D32FC2D00EB4D6B /* C091201c.cpp */,
+				D5D9FAAF0D32FC2D00EB4D6B /* C091201d.cpp */,
+				D5D9FAB00D32FC2D00EB4D6B /* C091201e.cpp */,
+				D5D9FAB10D32FC2D00EB4D6B /* C091201f.cpp */,
+				D5D9FAB20D32FC2D00EB4D6B /* C091204.cpp */,
+				D5D9FAB30D32FC2D00EB4D6B /* C091204a.cpp */,
+				D5D9FAB40D32FC2D00EB4D6B /* C091204b.cpp */,
+				D5D9FAB50D32FC2D00EB4D6B /* C091204d.cpp */,
+				D5D9FAB60D32FC2D00EB4D6B /* C091405.cpp */,
+				D5D9FAB70D32FC2D00EB4D6B /* C091406.cpp */,
+				D5D9FAB80D32FC2D00EB4D6B /* C091406a.cpp */,
+				D5D9FAB90D32FC2D00EB4D6B /* C091406b.cpp */,
+				D5D9FABA0D32FC2D00EB4D6B /* C091406c.cpp */,
+				D5D9FABB0D32FC2D00EB4D6B /* C091704b.cpp */,
+				D5D9FABC0D32FC2D00EB4D6B /* C091704c.cpp */,
+				D5D9FABD0D32FC2D00EB4D6B /* C091704d.cpp */,
+				D5D9FABE0D32FC2D00EB4D6B /* MusimatChapter9.cpp */,
+				D5D9FABF0D32FC2D00EB4D6B /* stdafx.cpp */,
+			);
+			name = MusimatChapter9;
+			sourceTree = "<group>";
+		};
+		D5C139CB0D1B5C1E008B5DDE /* MusimatLib */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9FB8D0D330A3E00EB4D6B /* Aliases.h */,
+				D5D9FB8E0D330A3E00EB4D6B /* Complex.h */,
+				D5D9FB8F0D330A3E00EB4D6B /* Dynamics.h */,
+				D5D9FB900D330A3E00EB4D6B /* List.h */,
+				D5D9FB910D330A3E00EB4D6B /* MathFuns.h */,
+				D5D9FB920D330A3E00EB4D6B /* Matrix.h */,
+				D5D9FB930D330A3E00EB4D6B /* Musimat.h */,
+				D5D9FB940D330A3E00EB4D6B /* Pitch.h */,
+				D5D9FB950D330A3E00EB4D6B /* Pitches.h */,
+				D5D9FB960D330A3E00EB4D6B /* Random.h */,
+				D5D9FB970D330A3E00EB4D6B /* Rational.h */,
+				D5D9FB980D330A3E00EB4D6B /* Rhythm.h */,
+				D5D9FB990D330A3E00EB4D6B /* Row.h */,
+				D5D9FA940D32FC0500EB4D6B /* Musimat.cpp */,
+				D5D9FA950D32FC0500EB4D6B /* Pitch.cpp */,
+				D5D9FA960D32FC0500EB4D6B /* Random.cpp */,
+				D5D9FA970D32FC0500EB4D6B /* Rational.cpp */,
+				D5D9FA980D32FC0500EB4D6B /* Rhythm.cpp */,
+				D5D9FA990D32FC0500EB4D6B /* Row.cpp */,
+			);
+			name = MusimatLib;
+			sourceTree = "<group>";
+		};
+		D5C139CE0D1B5C4A008B5DDE /* MusimatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9FA860D32FBDA00EB4D6B /* cplxTest.cpp */,
+				D5D9FA870D32FBDA00EB4D6B /* Euclid.cpp */,
+				D5D9FA880D32FBDA00EB4D6B /* Guido.cpp */,
+				D5D9FA890D32FBDA00EB4D6B /* miscTests.cpp */,
+				D5D9FA8A0D32FBDA00EB4D6B /* MusimatTests.cpp */,
+				D5D9FA8B0D32FBDA00EB4D6B /* stdafx.cpp */,
+			);
+			name = MusimatTests;
+			sourceTree = "<group>";
+		};
+		D5C139D10D1B5C5C008B5DDE /* MusimatTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				D5D9FA2E0D32FB8F00EB4D6B /* B0100.cpp */,
+				D5D9FA2F0D32FB8F00EB4D6B /* B0101.cpp */,
+				D5D9FA300D32FB8F00EB4D6B /* B0102.cpp */,
+				D5D9FA310D32FB8F00EB4D6B /* B0103.cpp */,
+				D5D9FA320D32FB8F00EB4D6B /* B0104.cpp */,
+				D5D9FA330D32FB8F00EB4D6B /* B0105.cpp */,
+				D5D9FA340D32FB8F00EB4D6B /* B0106.cpp */,
+				D5D9FA350D32FB8F00EB4D6B /* B0107.cpp */,
+				D5D9FA360D32FB8F00EB4D6B /* B0108.cpp */,
+				D5D9FA370D32FB8F00EB4D6B /* B0109.cpp */,
+				D5D9FA380D32FB8F00EB4D6B /* B0110.cpp */,
+				D5D9FA390D32FB8F00EB4D6B /* B0111.cpp */,
+				D5D9FA3A0D32FB8F00EB4D6B /* B0112.cpp */,
+				D5D9FA3B0D32FB8F00EB4D6B /* B0113.cpp */,
+				D5D9FA3C0D32FB8F00EB4D6B /* B0114.cpp */,
+				D5D9FA3D0D32FB8F00EB4D6B /* B0115.cpp */,
+				D5D9FA3E0D32FB8F00EB4D6B /* B0116.cpp */,
+				D5D9FA3F0D32FB8F00EB4D6B /* B0117.cpp */,
+				D5D9FA400D32FB8F00EB4D6B /* B0118.cpp */,
+				D5D9FA410D32FB8F00EB4D6B /* B0119.cpp */,
+				D5D9FA420D32FB8F00EB4D6B /* B0120.cpp */,
+				D5D9FA430D32FB8F00EB4D6B /* B0121.cpp */,
+				D5D9FA440D32FB8F00EB4D6B /* B0122.cpp */,
+				D5D9FA450D32FB8F00EB4D6B /* B0123.cpp */,
+				D5D9FA460D32FB8F00EB4D6B /* B0124.cpp */,
+				D5D9FA470D32FB8F00EB4D6B /* B0125.cpp */,
+				D5D9FA480D32FB8F00EB4D6B /* B0126.cpp */,
+				D5D9FA490D32FB8F00EB4D6B /* B0127.cpp */,
+				D5D9FA4A0D32FB8F00EB4D6B /* B0128.cpp */,
+				D5D9FA4B0D32FB8F00EB4D6B /* B0129.cpp */,
+				D5D9FA4C0D32FB8F00EB4D6B /* B0200.cpp */,
+				D5D9FA4D0D32FB8F00EB4D6B /* B0201.cpp */,
+				D5D9FA4E0D32FB8F00EB4D6B /* B0201a.cpp */,
+				D5D9FA4F0D32FB8F00EB4D6B /* B0201b.cpp */,
+				D5D9FA500D32FB8F00EB4D6B /* B0201c.cpp */,
+				D5D9FA510D32FB8F00EB4D6B /* B0201d.cpp */,
+				D5D9FA520D32FB8F00EB4D6B /* B0202.cpp */,
+				D5D9FA530D32FB8F00EB4D6B /* B0203.cpp */,
+				D5D9FA540D32FB8F00EB4D6B /* B0204.cpp */,
+				D5D9FA550D32FB8F00EB4D6B /* B0300.cpp */,
+				D5D9FA560D32FB8F00EB4D6B /* B0400.cpp */,
+				D5D9FA570D32FB8F00EB4D6B /* MusimatTutorial.cpp */,
+				D5D9FA580D32FB8F00EB4D6B /* stdafx.cpp */,
+			);
+			name = MusimatTutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5D9FAE00D32FD2B00EB4D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9FB9A0D330A3E00EB4D6B /* Aliases.h in Headers */,
+				D5D9FB9B0D330A3E00EB4D6B /* Complex.h in Headers */,
+				D5D9FB9C0D330A3E00EB4D6B /* Dynamics.h in Headers */,
+				D5D9FB9D0D330A3E00EB4D6B /* List.h in Headers */,
+				D5D9FB9E0D330A3E00EB4D6B /* MathFuns.h in Headers */,
+				D5D9FB9F0D330A3E00EB4D6B /* Matrix.h in Headers */,
+				D5D9FBA00D330A3E00EB4D6B /* Musimat.h in Headers */,
+				D5D9FBA10D330A3E00EB4D6B /* Pitch.h in Headers */,
+				D5D9FBA20D330A3E00EB4D6B /* Pitches.h in Headers */,
+				D5D9FBA30D330A3E00EB4D6B /* Random.h in Headers */,
+				D5D9FBA40D330A3E00EB4D6B /* Rational.h in Headers */,
+				D5D9FBA50D330A3E00EB4D6B /* Rhythm.h in Headers */,
+				D5D9FBA60D330A3E00EB4D6B /* Row.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D5D9FAE30D32FD2B00EB4D6B /* MusimatLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D9FAE70D32FD4900EB4D6B /* Build configuration list for PBXNativeTarget "MusimatLib" */;
+			buildPhases = (
+				D5D9FAE00D32FD2B00EB4D6B /* Headers */,
+				D5D9FAE10D32FD2B00EB4D6B /* Sources */,
+				D5D9FAE20D32FD2B00EB4D6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusimatLib;
+			productName = MusimatLib;
+			productReference = D5D9FAE40D32FD2B00EB4D6B /* libMusimatLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5D9FAEE0D33034300EB4D6B /* MusimatTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D9FB050D33039100EB4D6B /* Build configuration list for PBXNativeTarget "MusimatTutorial" */;
+			buildPhases = (
+				D5D9FAEC0D33034300EB4D6B /* Sources */,
+				D5D9FAED0D33034300EB4D6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D9FB6C0D3306A100EB4D6B /* PBXTargetDependency */,
+			);
+			name = MusimatTutorial;
+			productName = MusimatTutorial;
+			productReference = D5D9FAEF0D33034300EB4D6B /* MusimatTutorial */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5D9FAF70D33035F00EB4D6B /* MusimatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D9FB060D33039100EB4D6B /* Build configuration list for PBXNativeTarget "MusimatTests" */;
+			buildPhases = (
+				D5D9FAF50D33035F00EB4D6B /* Sources */,
+				D5D9FAF60D33035F00EB4D6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D9FB6E0D3306B200EB4D6B /* PBXTargetDependency */,
+			);
+			name = MusimatTests;
+			productName = MusimatTests;
+			productReference = D5D9FAF80D33035F00EB4D6B /* MusimatTests */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5D9FB000D33037300EB4D6B /* MusimatChapter9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D9FB070D33039100EB4D6B /* Build configuration list for PBXNativeTarget "MusimatChapter9" */;
+			buildPhases = (
+				D5D9FAFE0D33037300EB4D6B /* Sources */,
+				D5D9FAFF0D33037300EB4D6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D9FB700D3306BE00EB4D6B /* PBXTargetDependency */,
+			);
+			name = MusimatChapter9;
+			productName = MusimatChapter9;
+			productReference = D5D9FB010D33037300EB4D6B /* MusimatChapter9 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = __GarethInc__;
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Musimat" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Musimat */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54F8CCF1294FEED0048DBC8 /* All */,
+				D5D9FAE30D32FD2B00EB4D6B /* MusimatLib */,
+				D5D9FAEE0D33034300EB4D6B /* MusimatTutorial */,
+				D5D9FAF70D33035F00EB4D6B /* MusimatTests */,
+				D5D9FB000D33037300EB4D6B /* MusimatChapter9 */,
+				D5D9FBBD0D348FD100EB4D6B /* ShellScript */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5D9FBBC0D348FD100EB4D6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D9FAE10D32FD2B00EB4D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9FB390D33047E00EB4D6B /* Musimat.cpp in Sources */,
+				D5D9FB3A0D33047E00EB4D6B /* Rational.cpp in Sources */,
+				D5D9FB3B0D33047E00EB4D6B /* Pitch.cpp in Sources */,
+				D5D9FB3C0D33047E00EB4D6B /* Rhythm.cpp in Sources */,
+				D5D9FB3D0D33047E00EB4D6B /* Random.cpp in Sources */,
+				D5D9FB3E0D33047E00EB4D6B /* Row.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9FAEC0D33034300EB4D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9FB080D33043200EB4D6B /* B0105.cpp in Sources */,
+				D5D9FB090D33043200EB4D6B /* B0129.cpp in Sources */,
+				D5D9FB0A0D33043200EB4D6B /* B0115.cpp in Sources */,
+				D5D9FB0B0D33043200EB4D6B /* B0201a.cpp in Sources */,
+				D5D9FB0C0D33043200EB4D6B /* B0101.cpp in Sources */,
+				D5D9FB0D0D33043200EB4D6B /* B0201b.cpp in Sources */,
+				D5D9FB0E0D33043200EB4D6B /* B0110.cpp in Sources */,
+				D5D9FB0F0D33043200EB4D6B /* B0106.cpp in Sources */,
+				D5D9FB100D33043200EB4D6B /* B0113.cpp in Sources */,
+				D5D9FB110D33043200EB4D6B /* B0104.cpp in Sources */,
+				D5D9FB120D33043200EB4D6B /* B0118.cpp in Sources */,
+				D5D9FB130D33043200EB4D6B /* B0109.cpp in Sources */,
+				D5D9FB140D33043200EB4D6B /* B0102.cpp in Sources */,
+				D5D9FB150D33043200EB4D6B /* B0200.cpp in Sources */,
+				D5D9FB160D33043200EB4D6B /* B0203.cpp in Sources */,
+				D5D9FB170D33043200EB4D6B /* B0204.cpp in Sources */,
+				D5D9FB180D33043200EB4D6B /* B0201c.cpp in Sources */,
+				D5D9FB190D33043200EB4D6B /* B0201d.cpp in Sources */,
+				D5D9FB1A0D33043200EB4D6B /* MusimatTutorial.cpp in Sources */,
+				D5D9FB1B0D33043200EB4D6B /* B0122.cpp in Sources */,
+				D5D9FB1C0D33043200EB4D6B /* B0121.cpp in Sources */,
+				D5D9FB1D0D33043200EB4D6B /* B0125.cpp in Sources */,
+				D5D9FB1E0D33043200EB4D6B /* B0123.cpp in Sources */,
+				D5D9FB1F0D33043200EB4D6B /* B0103.cpp in Sources */,
+				D5D9FB200D33043200EB4D6B /* B0114.cpp in Sources */,
+				D5D9FB210D33043200EB4D6B /* B0400.cpp in Sources */,
+				D5D9FB220D33043200EB4D6B /* B0112.cpp in Sources */,
+				D5D9FB230D33043200EB4D6B /* B0124.cpp in Sources */,
+				D5D9FB240D33043200EB4D6B /* B0201.cpp in Sources */,
+				D5D9FB250D33043200EB4D6B /* B0107.cpp in Sources */,
+				D5D9FB260D33043200EB4D6B /* B0119.cpp in Sources */,
+				D5D9FB270D33043200EB4D6B /* B0300.cpp in Sources */,
+				D5D9FB290D33043200EB4D6B /* B0128.cpp in Sources */,
+				D5D9FB2A0D33043200EB4D6B /* B0100.cpp in Sources */,
+				D5D9FB2B0D33043200EB4D6B /* B0127.cpp in Sources */,
+				D5D9FB2C0D33043200EB4D6B /* B0202.cpp in Sources */,
+				D5D9FB2D0D33043200EB4D6B /* B0117.cpp in Sources */,
+				D5D9FB2E0D33043200EB4D6B /* B0111.cpp in Sources */,
+				D5D9FB2F0D33043200EB4D6B /* B0116.cpp in Sources */,
+				D5D9FB300D33043200EB4D6B /* B0108.cpp in Sources */,
+				D5D9FB310D33043200EB4D6B /* B0120.cpp in Sources */,
+				D5D9FB320D33043200EB4D6B /* B0126.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9FAF50D33035F00EB4D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9FB330D33045B00EB4D6B /* Euclid.cpp in Sources */,
+				D5D9FB340D33045B00EB4D6B /* miscTests.cpp in Sources */,
+				D5D9FB360D33045B00EB4D6B /* cplxTest.cpp in Sources */,
+				D5D9FB370D33045B00EB4D6B /* MusimatTests.cpp in Sources */,
+				D5D9FB380D33045B00EB4D6B /* Guido.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D9FAFE0D33037300EB4D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D9FB3F0D33049700EB4D6B /* C091201.cpp in Sources */,
+				D5D9FB400D33049700EB4D6B /* C091201e.cpp in Sources */,
+				D5D9FB410D33049700EB4D6B /* C090400.cpp in Sources */,
+				D5D9FB420D33049700EB4D6B /* C091704b.cpp in Sources */,
+				D5D9FB430D33049700EB4D6B /* C091406c.cpp in Sources */,
+				D5D9FB440D33049700EB4D6B /* C091101.cpp in Sources */,
+				D5D9FB450D33049700EB4D6B /* C091704c.cpp in Sources */,
+				D5D9FB460D33049700EB4D6B /* C091204.cpp in Sources */,
+				D5D9FB470D33049700EB4D6B /* MusimatChapter9.cpp in Sources */,
+				D5D9FB480D33049700EB4D6B /* C090703a.cpp in Sources */,
+				D5D9FB490D33049700EB4D6B /* C090703.cpp in Sources */,
+				D5D9FB4A0D33049700EB4D6B /* C091201d.cpp in Sources */,
+				D5D9FB4B0D33049700EB4D6B /* C091204b.cpp in Sources */,
+				D5D9FB4C0D33049700EB4D6B /* C091204a.cpp in Sources */,
+				D5D9FB4D0D33049700EB4D6B /* C091102.cpp in Sources */,
+				D5D9FB4F0D33049700EB4D6B /* C091405.cpp in Sources */,
+				D5D9FB500D33049700EB4D6B /* C091406a.cpp in Sources */,
+				D5D9FB510D33049700EB4D6B /* C091406b.cpp in Sources */,
+				D5D9FB520D33049700EB4D6B /* C091201f.cpp in Sources */,
+				D5D9FB530D33049700EB4D6B /* C090703b.cpp in Sources */,
+				D5D9FB540D33049700EB4D6B /* C091201b.cpp in Sources */,
+				D5D9FB550D33049700EB4D6B /* C091201c.cpp in Sources */,
+				D5D9FB560D33049700EB4D6B /* C091704d.cpp in Sources */,
+				D5D9FB570D33049700EB4D6B /* C091204d.cpp in Sources */,
+				D5D9FB580D33049700EB4D6B /* C090703c.cpp in Sources */,
+				D5D9FB590D33049700EB4D6B /* C090903.cpp in Sources */,
+				D5D9FB5A0D33049700EB4D6B /* C091406.cpp in Sources */,
+				D5D9FB5B0D33049700EB4D6B /* C091200.cpp in Sources */,
+				D5D9FB5C0D33049700EB4D6B /* C091201a.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54F8CD41294FF2E0048DBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FAE30D32FD2B00EB4D6B /* MusimatLib */;
+			targetProxy = D54F8CD31294FF2E0048DBC8 /* PBXContainerItemProxy */;
+		};
+		D54F8CD61294FF2E0048DBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FAEE0D33034300EB4D6B /* MusimatTutorial */;
+			targetProxy = D54F8CD51294FF2E0048DBC8 /* PBXContainerItemProxy */;
+		};
+		D54F8CD81294FF2E0048DBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FAF70D33035F00EB4D6B /* MusimatTests */;
+			targetProxy = D54F8CD71294FF2E0048DBC8 /* PBXContainerItemProxy */;
+		};
+		D54F8CDA1294FF2E0048DBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FB000D33037300EB4D6B /* MusimatChapter9 */;
+			targetProxy = D54F8CD91294FF2E0048DBC8 /* PBXContainerItemProxy */;
+		};
+		D5D9FB6C0D3306A100EB4D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FAE30D32FD2B00EB4D6B /* MusimatLib */;
+			targetProxy = D5D9FB6B0D3306A100EB4D6B /* PBXContainerItemProxy */;
+		};
+		D5D9FB6E0D3306B200EB4D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FAE30D32FD2B00EB4D6B /* MusimatLib */;
+			targetProxy = D5D9FB6D0D3306B200EB4D6B /* PBXContainerItemProxy */;
+		};
+		D5D9FB700D3306BE00EB4D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D9FAE30D32FD2B00EB4D6B /* MusimatLib */;
+			targetProxy = D5D9FB6F0D3306BE00EB4D6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+		D54F8CD01294FEED0048DBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		D54F8CD11294FEED0048DBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D5D9FAE50D32FD2B00EB4D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatLib;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		D5D9FAE60D32FD2B00EB4D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatLib;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D5D9FAF10D33034300EB4D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "-lMusimatLib";
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatTutorial;
+				ZERO_LINK = YES;
+				newSetting = "";
+			};
+			name = Debug;
+		};
+		D5D9FAF20D33034300EB4D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatTutorial;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D5D9FAFA0D33035F00EB4D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatTests;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		D5D9FAFB0D33035F00EB4D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatTests;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D5D9FB030D33037300EB4D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatChapter9;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		D5D9FB040D33037300EB4D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = MusimatChapter9;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D5D9FBBE0D348FD100EB4D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = ShellScript;
+			};
+			name = Debug;
+		};
+		D5D9FBBF0D348FD100EB4D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = ShellScript;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Musimat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54F8CD21294FF0B0048DBC8 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54F8CD01294FEED0048DBC8 /* Debug */,
+				D54F8CD11294FEED0048DBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D9FAE70D32FD4900EB4D6B /* Build configuration list for PBXNativeTarget "MusimatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9FAE50D32FD2B00EB4D6B /* Debug */,
+				D5D9FAE60D32FD2B00EB4D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D9FB050D33039100EB4D6B /* Build configuration list for PBXNativeTarget "MusimatTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9FAF10D33034300EB4D6B /* Debug */,
+				D5D9FAF20D33034300EB4D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D9FB060D33039100EB4D6B /* Build configuration list for PBXNativeTarget "MusimatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9FAFA0D33035F00EB4D6B /* Debug */,
+				D5D9FAFB0D33035F00EB4D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D9FB070D33039100EB4D6B /* Build configuration list for PBXNativeTarget "MusimatChapter9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9FB030D33037300EB4D6B /* Debug */,
+				D5D9FB040D33037300EB4D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D9FBC00D348FDA00EB4D6B /* Build configuration list for PBXAggregateTarget "ShellScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D9FBBE0D348FD100EB4D6B /* Debug */,
+				D5D9FBBF0D348FD100EB4D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

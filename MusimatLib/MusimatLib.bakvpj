@@ -1,0 +1,8 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/8.1/vpj.dtd">
+<Project
+    Version="8.1"
+    VendorName="SlickEdit"
+    WorkingDir="."
+    AssociatedFile="MusimatLib.vcproj"
+    AssociatedFileType="microsoft visual studio visual c++">
+</Project>

@@ -1,0 +1,4 @@
+Musimat CVS tag history:
+release-1-0		Initial release
+release-1-1		Improved formatting
+release-1-2		Improved content

@@ -113,7 +113,7 @@ SRC =   B0100.cpp  \
 	MusimatTutorial.cpp
 
 $(EXE): $(OBJ)
-	$(CC) -Wall -o $(EXE) $(OBJ) $(LIB) -lstdc++
+	$(CC) -Wall -o $(EXE) $(OBJ) $(LIB) -lstdc++ -lm
 
 
 clean:

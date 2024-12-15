@@ -31,7 +31,7 @@ OBJ = MusimatTests.o miscTests.o Guido.o Euclid.o cplxTest.o
 SRC = MusimatTests.cpp miscTests.cpp Guido.cpp Euclid.cpp cplxTest.cpp
 
 $(EXE): $(OBJ)
-	$(CC) -Wall -o $(EXE) $(OBJ) $(LIB) -lstdc++
+	$(CC) -Wall -o $(EXE) $(OBJ) $(LIB) -lstdc++ -lm
 
 
 clean:
